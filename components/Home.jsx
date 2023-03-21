@@ -16,27 +16,27 @@ function Home() {
           <div className="bg-black px-4 pb-3 relative z-40 group-hover:bg-white ease-in-out duration-200">
             <div className="bg-black absolute left-0 -bottom-4 h-full w-[5px] z-10 group-hover:bg-white ease-in-out duration-200" />
             <div className="bg-black absolute right-0 -bottom-4 h-full w-[15%] z-10 group-hover:bg-white ease-in-out duration-200" />
-            <div className="text-white text-8xl font-impact relative z-40 group-hover:text-black ease-in-out duration-200">
+            <div className="text-white text-7xl font-impact relative z-40 group-hover:text-black ease-in-out duration-200">
               <Link href="/works">WORKS</Link>
             </div>
           </div>
           <span>- - -</span>
         </div>
 
-        <div className="flex w-fit ml-7 mt-3 group">
+        <div className="flex w-fit ml-5 mt-3 group">
           <span>- -</span>
           <div className="bg-black group-hover:bg-white ease-in-out duration-200">
-            <div className="text-white text-7xl pr-4 pl-1 pt-2 font-impact group-hover:text-black ease-in-out duration-200">
+            <div className="text-white text-6xl pr-4 pl-1 pt-2 font-impact group-hover:text-black ease-in-out duration-200">
               <Link href="/text">TEXTS</Link>
             </div>
           </div>
           <span>- -</span>
         </div>
 
-        <div className="flex w-fit ml-5 mt-3 group">
+        <div className="flex w-fit ml-3 mt-3 group">
           <span>—</span>
           <div className="bg-black pl-6 pb-5 pr-1 group-hover:bg-white ease-in-out duration-200">
-            <div className="text-white text-8xl font-impact group-hover:text-black ease-in-out duration-200">
+            <div className="text-white text-7xl font-impact group-hover:text-black ease-in-out duration-200">
               <Link href="/about">ABOUT</Link>
             </div>
           </div>

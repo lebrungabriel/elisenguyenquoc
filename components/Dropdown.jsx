@@ -12,7 +12,7 @@ import {
 
 const Dropdown = (props) => {
   return (
-    <Accordion defaultIndex={[0]} allowMultiple>
+    <Accordion allowMultiple>
       <AccordionItem>
         <h2>
           <AccordionButton>
@@ -28,19 +28,11 @@ const Dropdown = (props) => {
           </AccordionButton>
         </h2>
         <AccordionPanel py={10}>
-          <div className="w-[100%] h-[60vh] sm:w-[80%] md:w-[60%] lg:w-[50%] relative mb-5">
-            <Image
-              src="/images/2019/25.jpeg"
-              layout="fill"
-              objectFit="contain"
-            />
+          <div className="w-[100%] h-[60vh] relative mb-5">
+            <Image src="/images/2019/25.jpeg" layout="fill" objectFit="cover" />
           </div>
-          <div className="w-[100%] h-[60vh] sm:w-[80%] md:w-[60%] lg:w-[50%] relative">
-            <Image
-              src="/images/2019/26.jpeg"
-              layout="fill"
-              objectFit="contain"
-            />
+          <div className="w-[100%] h-[60vh] relative">
+            <Image src="/images/2019/26.jpeg" layout="fill" objectFit="cover" />
           </div>
         </AccordionPanel>
       </AccordionItem>
