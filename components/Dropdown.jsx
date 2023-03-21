@@ -29,10 +29,18 @@ const Dropdown = (props) => {
         </h2>
         <AccordionPanel py={10}>
           <div className="w-[100%] h-[60vh] relative mb-5">
-            <Image src="/images/2019/25.jpeg" layout="fill" objectFit="cover" />
+            <Image
+              src="/images/2019/25.jpeg"
+              layout="fill"
+              objectFit="contain"
+            />
           </div>
           <div className="w-[100%] h-[60vh] relative">
-            <Image src="/images/2019/26.jpeg" layout="fill" objectFit="cover" />
+            <Image
+              src="/images/2019/26.jpeg"
+              layout="fill"
+              objectFit="contain"
+            />
           </div>
         </AccordionPanel>
       </AccordionItem>
