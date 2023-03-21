@@ -4,7 +4,7 @@ import Dropdown from "./Dropdown";
 
 const CardDropdown = (props) => {
   return (
-    <div className="w-full min-h-[50vh] flex flex-col items-center">
+    <div className="w-full min-h-[50vh] flex flex-col items-center my-10">
       <div className="w-[100%] h-[60vh] sm:w-[80%] md:w-[60%] lg:w-[50%] relative">
         <Image src={props.src} layout="fill" objectFit="contain" />
       </div>

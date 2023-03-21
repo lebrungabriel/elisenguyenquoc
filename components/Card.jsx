@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Card = (props) => {
   return (
-    <div className="w-full flex flex-col items-center my-20">
+    <div className="w-full flex flex-col items-center my-10">
       <div className="w-[100%] h-[50vh] sm:w-[80%] md:w-[60%] lg:w-[50%] relative">
         <Image src={props.src} layout="fill" objectFit="contain" />
       </div>
