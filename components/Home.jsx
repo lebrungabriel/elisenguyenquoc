@@ -5,7 +5,7 @@ function Home() {
   return (
     <div className="h-screen w-screen flex flex-col justify-around items-center">
       <div className="h-[20%] w-full w-full flex justify-center items-center">
-        <h1 className="font-impact text-5xl italic text-center">
+        <h1 className="font-impact text-4xl italic text-center">
           ELISE NGUYEN QUOC
         </h1>
       </div>
